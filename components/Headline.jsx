@@ -1,6 +1,7 @@
 import styles from "../styles/Home.module.css";
 
 export const Headline = (props) => {
+
   return (
     <div>
       <h1 className={styles.title}>{props.page} Page</h1>
