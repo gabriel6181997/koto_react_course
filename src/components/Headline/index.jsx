@@ -1,4 +1,4 @@
-import styles from "../styles/Home.module.css";
+import styles from "src/components/Headline/Headline.module.css";
 
 export const Headline = (props) => {
 

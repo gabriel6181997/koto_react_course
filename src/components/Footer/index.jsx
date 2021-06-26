@@ -1,6 +1,5 @@
-/* eslint-disable @next/next/no-img-element */
-import styles from "../styles/Home.module.css";
 import Image from 'next/image';
+import styles from "src/components/Footer/Footer.module.css"
 
 export const Footer = () => {
   return (
