@@ -6,7 +6,7 @@ const Index = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>About Page</title>
+        <title>Index Page</title>
       </Head>
       <Header />
       <h1>Next.jsで学ぶReact講座</h1>
