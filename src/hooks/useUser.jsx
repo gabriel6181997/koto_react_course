@@ -6,7 +6,9 @@ export const useUser = () => {
   const router = useRouter();
 
   const { data: user, error: userError } = useSWR(
-    `https://jsonplaceholder.typicode.com/users/${router.query.id}`,
+    router.query.id
+      ? `https://jsonplaceholder.typicode.com/users/${router.query.id}`
+      : null,
     fetcher
   );
 
